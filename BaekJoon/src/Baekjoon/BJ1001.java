@@ -2,7 +2,7 @@ package Baekjoon;
 
 import java.util.Scanner;
 
-public class Main {
+public class BJ1001 {
 
 	public static void main(String[] args) {
 		 
@@ -10,7 +10,7 @@ public class Main {
 		int A = in.nextInt();
 		int B = in.nextInt();
 		
-		System.out.println(A*B);
+		System.out.println(A-B);
  
 		in.close();
 	}
