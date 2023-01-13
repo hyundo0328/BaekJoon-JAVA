@@ -2,7 +2,7 @@ package Baekjoon;
 
 import java.util.Scanner;
 
-public class Main {
+public class BJ2588 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
@@ -19,4 +19,5 @@ public class Main {
 		System.out.println(baek);
 		System.out.println(one+ten*10+baek*100);
 	}
+
 }
