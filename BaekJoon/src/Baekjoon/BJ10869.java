@@ -2,8 +2,7 @@ package Baekjoon;
 
 import java.util.Scanner;
 
-public class Main {
-
+public class BJ10869 {
 	public static void main(String[] args) {
 		 
 		Scanner in = new Scanner(System.in);
@@ -18,5 +17,4 @@ public class Main {
  
 		in.close();
 	}
-
 }
