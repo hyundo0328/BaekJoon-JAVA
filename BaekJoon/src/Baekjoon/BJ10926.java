@@ -2,14 +2,13 @@ package Baekjoon;
 
 import java.util.Scanner;
 
-public class Main {
-
+public class BJ10926 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		int year = in.nextInt();
+		String name = in.next();
 		
-		System.out.println(year-543);
+		System.out.println(name+"??!");
 		
 		in.close();
 	}
