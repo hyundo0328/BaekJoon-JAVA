@@ -15,6 +15,8 @@ public class BJ3003 {
 		int f = in.nextInt();
 		
 		System.out.println(String.format("%d %d %d %d %d %d",1-a,1-b,2-c,2-d,2-e,8-f));
+		
+		in.close();
 	}
 
 }

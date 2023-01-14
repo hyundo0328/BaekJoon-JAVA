@@ -18,6 +18,8 @@ public class BJ2588 {
 		System.out.println(ten);
 		System.out.println(baek);
 		System.out.println(one+ten*10+baek*100);
+		
+		in.close();
 	}
 
 }

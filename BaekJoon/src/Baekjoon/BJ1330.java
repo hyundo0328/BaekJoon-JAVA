@@ -16,5 +16,7 @@ public class BJ1330 {
 		} else {
 			System.out.println("==");
 		}
+		
+		in.close();
 	}
 }

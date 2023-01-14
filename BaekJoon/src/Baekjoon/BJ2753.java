@@ -14,5 +14,7 @@ public class BJ2753 {
 		} else {
 			System.out.println("0");
 		}
+		
+		in.close();
 	}
 }
