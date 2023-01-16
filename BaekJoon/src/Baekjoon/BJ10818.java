@@ -17,8 +17,8 @@ public class BJ10818 {
 		
 		int num = Integer.parseInt(br.readLine());
 		int arr[] = new int[num];
-		int min=999999;
-		int max=-999999;
+		int min=1000000;
+		int max=-1000000;
 		
 		st = new StringTokenizer(br.readLine());
 		for(int i=0;i<num;i++) {
