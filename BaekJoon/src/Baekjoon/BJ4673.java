@@ -25,6 +25,7 @@ public class BJ4673 {
 			sum += tmp%10;
 			tmp = tmp/10;
 		}
+		
 		/* 메소드 종료방법
 		 * 1. System.exit(0) : 프로그램을 아예 종료
 		 * 2. return : 해당 메소드만 종료*/
