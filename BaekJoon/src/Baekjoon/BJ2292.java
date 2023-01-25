@@ -9,14 +9,18 @@ public class BJ2292 {
 		
 		int num = in.nextInt();
 		int count = 1;
-		int sum = 0;
+		int sum = 2;
 		
-		while(sum<=num) {
-			sum += 6*count;
-			count++;
+		if(num==1) {
+			System.out.println(1);
+		} else {
+			while(sum<=num) {
+				sum += 6*count;
+				count++;
+				//System.out.println("sum : "+sum+" count : "+count);
+			}
+			System.out.println(count);
 		}
-		
-		System.out.println(count);
 		
 		in.close();
 	}
