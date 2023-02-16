@@ -25,6 +25,7 @@ public class BJ1966 {
 			int n = Integer.parseInt(st.nextToken());
 			int m = Integer.parseInt(st.nextToken());
 			
+			// LinkedList<int[]>도 가능
 			LinkedList<int[]> queue = new LinkedList<>(); 
 			st = new StringTokenizer(br.readLine());
 			
@@ -35,6 +36,7 @@ public class BJ1966 {
 			int count = 0;
 			
 			while(!queue.isEmpty()) {
+				
 				int tmp[] = queue.poll();
 				int flag = 1;
 				
