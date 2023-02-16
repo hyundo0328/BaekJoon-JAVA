@@ -36,7 +36,7 @@ public class BJ1966 {
 			
 			while(!queue.isEmpty()) {
 				int tmp[] = queue.poll();
-				int isMax = 1;
+				int flag = 1;
 				
 				for(int i=0; i<queue.size(); i++) {
 					if(tmp[1] < queue.get(i)[1]) {
@@ -44,12 +44,12 @@ public class BJ1966 {
 						for(int j=0; j<i; j++)
 							queue.offer(queue.poll());
 					
-						isMax = 0;
+						flag = 0;
 						break;
 					}
 				}
 				
-				if(isMax == 0)
+				if(flag == 0)
 					continue;
 				
 				count++;
